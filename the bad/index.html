@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styl.css">
+    <script>
+      function validatecontact(){
+        if(document.getElementById('fastname').value==""){
+          alert('enter fastname');
+          document.getElementById('fastname').style.borderColor="blue";
+          return false;
+      }
+      else if(document.getElementById('lastname').value==""){
+          alert('Enter last');
+          document.getElementById('lastname').style.borderColor="blue";
+          return false;
+    }
+    else if(document.getElementById('email').value==""){
+          alert('enter email');
+          document.getElementById('email').style.borderColor="blue";
+          return false;
+    }
+
+    else if(document.getElementById('phonenumber').value==""){
+          alert('enter phonenumber');
+          document.getElementById('phonenumber').style.borderColor="blue";
+          return false;
+   }
+          if(document.getElementById('message').value==""){
+          alert('enter message');
+          document.getElementById('message').style.borderColor="blue";
+          return false;
+          
+
+        }
+      }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo"> 
+            <img src="image/download.png" alt="image">
+        </div>
+        <div class="navbar">
+           <ul>
+            <li>
+                <a href="*"><span>HOMA</span></a>
+                <a href="*">PAGE</a>
+                <a href="*">WORK</a>
+                <a href="*">BROG</a>
+                <a href="">CONTACT</a>
+            </li>
+           </ul>
+        </div>
+        <div class="image"> 
+            <div class="major"> 
+                <h1>black silver</h1> <br> 
+                <p><h1>develop</h1></p>
+               <p>
+                artist and flm making . <br>
+                director of movie <br>
+                can you log in on our website. <br>
+                 anything you can get your answer? 
+               </p>
+            </div>
+            <img src="image/522B4D97-3315-468B-B57A-5C5D9DF638AD-afrocharts-631e35b6cd9d01118f390cb.jpeg" alt="image">
+        </div>
+        <div class="skill">
+            <h1>my skill</h1>
+          <div class="container_image">
+            <div class="good">
+                <img src="image/HTML5.png" alt="image">
+                <h2>HTML5</h2>
+            
+                artist and flm making . <br>
+                director of movie <br>
+                can you log in on our website. <br>
+                 anything you can get your answer?
+        
+              </div> 
+                 
+              <div class="css">
+                <img src="image/CSS3_logo_and_wordmark.svg.png" alt="image">
+                <h2>CSS3</h2>
+                artist and flm making . <br>
+                director of movie <br>
+                can you log in on our website. <br>
+                 anything you can get your answer?
+               
+              </div> 
+             <div class="sql">
+                <img src="image/mysql.png" alt="image">
+                <H2>MYSQL</H2>
+                artist and flm making . <br>
+                director of movie <br>
+                can you log in on our website. <br>
+                 anything you can get your answer?
+                
+                
+             </div> 
+          </div>
+         
+         
+          <div class="container_anther_image"> 
+            <div class="image_php">
+                <img src="image/php_.png" alt="image">
+                <h2>php</h2>
+                artist and flm making . <br>
+                director of movie <br>
+                can you log in on our website. <br>
+                 anything you can get your answer?
+             </div>
+             
+             <div class="py">
+                <img src="image/Python.png" alt="image">
+                <H2>PYTHON</H2>
+                artist and flm making . <br>
+                director of movie <br>
+                can you log in on our website. <br>
+                 anything you can get your answer?
+             </div>
+             
+             <div class="js">
+                <img src="image/javascript.webp" alt="image">
+                <H2>JS</H2>
+              artist and flm making . <br>
+                director of movie <br>
+                can you log in on our website. <br>
+                 anything you can get your answer?
+             </div>
+        </div>
+        </div> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        <h1 class="VIEW">CONTACT US</h1>
+        <div class="contact">
+          
+          <img src="image/HD-wallpaper-earth-view-earth-and-moon-earth-in-space-space-thumbnail.jpg" alt="image">
+          <div class="form">
+            <h1>SEND US A MESSAGE</h1> <br> <br> <br>
+           <form action="" method="post" onsubmit="return validatecontact()">
+            <input type="text" name="tell us you name" value="TELL US YOUR NAME" class="float" > <br>
+            <input type="float:left" name="fastname" placeholder="fastname" id="fastname">
+            <input type="text" name="lastname" placeholder="lastname" id="lastname"> <br> <br>
+            <input type="text" value="email"><br>
+            <input type="text" name="email" placeholder="Enter you Email"id="email"> <br> <br> <br>
+            <input type="text" value="phonenumber"><br>
+            <input type="text" name="phonenumber" placeholder="ENTER your phone number"id="phonenumber"> <br> <br> <br> <br>
+            <input type="text" value="message"><br>
+            <input type="text" name="message" placeholder="ENTER MESSAGE" class="message"id="message">
+            <button class="button">send</button>
+           </form>
+          </div>
+
+
+        </div>
+    </div>
+    <script src="H.js"></script>
+   
+</body>
+</html>
